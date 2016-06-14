@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi-ejemplo" name="Kodi-ejemplo official Repo" version="1.1.0" provider-name="KodiEjemplo">
+	<extension point="xbmc.addon.repository" name="Kodi-Ejemplo official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/joalcota86/NuevoRepositorio/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/joalcota86/NuevoRepositorio/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/joalcota86/NuevoRepositorio/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi-Ejemplo official Repo</summary>
+   		<description lang="en">Instala los Addons de Kodi ejemplo.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
